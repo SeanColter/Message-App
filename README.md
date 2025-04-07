@@ -26,14 +26,14 @@ This project combines a React-based frontend with a Python server backend. The f
    virtualenv .venv # Create Virtual Environemnt
    venv/Scripts/activate # Enter Virtual Environemnt
    pip install -r requirements.txt # Install Deps
-   py server.py # Runs server on localhost:5000
+   py server.py # Runs server at localhost:5000
    ```
 
 3. Running the Front End
    ```bash
    cd front-end
-   npm install
-   npm run dev
+   npm install # Instal Deps
+   npm run dev # Runs React App at localhost:5173
    ```
 
 ### How it works
