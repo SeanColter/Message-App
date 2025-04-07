@@ -17,11 +17,11 @@ This project combines a React-based frontend with a Python server backend. The f
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/SeanColter/Message-App.git
    ```
 
 2. Running the Server
-   ```
+   ```bash
    cd server
    virtualenv .venv # Create Virtual Environemnt
    venv/Scripts/activate # Enter Virtual Environemnt
@@ -30,7 +30,7 @@ This project combines a React-based frontend with a Python server backend. The f
    ```
 
 3. Running the Front End
-   ```
+   ```bash
    cd front-end
    npm install
    npm run dev
@@ -45,4 +45,4 @@ limited users: `user` and `viewer`
 
 The Server will generate and use a `messages.csv` file to store messages that are created by the `boss` or `admin` users
 
-The login and authorization is a simple number of the user ID. this is not meant to be secure and a proper implementation would instead use a Database with hashed passwords and create/read JWTs for Authorization.
+The login and authorization is a simple number of the user ID. this is not meant to be secure and a proper implementation would instead use a Database with hashed passwords and create JWTs for Authorization
