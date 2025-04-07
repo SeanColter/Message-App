@@ -36,11 +36,14 @@ This project combines a React-based frontend with a Python server backend. The f
    npm run dev # Runs React App at localhost:5173
    ```
 
-### How it works
+## Information
 
 Currently the App is setup with hardcoded users where the password to login matches the username.
+
 There are 4 current users, 2 administrator users who can view and create messages and 2 limited users who can only view messages.
+
 administrators: `admin` (userID 1) and `boss` (userID 2)
+
 limited users: `user` and `viewer`
 
 The Server will generate and use a `messages.csv` file to store messages that are created by the `boss` or `admin` users
